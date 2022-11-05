@@ -1,0 +1,114 @@
+*,*::before, ::after{
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(120deg, #fcf9f9 0%, #fdfdfd 100%);
+}
+.img{
+    float: right;
+}
+
+
+#card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.text{
+    color: #fdfbfb;
+    /* background-image: linear-gradient(rgb(127, 166, 218),rgb(127, 166, 218)),url(../project/apple-laptop-500x500.jpg);
+     */
+     background-image: url(https://wallpaperaccess.com/full/1808486.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+height: 500px;
+font-size: 50px;
+text-align: center;
+font-family: algerian;
+/* transition: 200ms transform ease-in-out; */
+
+}
+.text:hover{
+  transform: scale(1.025);
+  transition: 200ms transform ease-in-out;
+}
+#class{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+/* #txt_ml-r{
+    margin-right: 5px;
+    margin-left:5px;
+} */
+.text-center{
+  animation-duration: 4s;
+  animation-name: slidein;
+  animation-iteration-count: limited;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+/* #p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+  }
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  } */
+.card{
+  display: block;
+  border: none;
+  box-shadow:  0 6px 5px 0 rgba(0, 0, 0, .2);
+}
+/* .container{
+  display: flex;
+  margin: 50px;
+} */
+.img{
+  transition: 200ms transform ease-in-out;
+  display: block;
+  border-radius: .25rem;
+  border: none ;
+  box-shadow:  0 8px 7px 0 rgba(0, 0, 0, .4);
+  /* margin: 5px; */
+  /* margin-top: -80px; */
+
+}
+
+.img:hover{
+  transform: scale(1.025);
+  border-radius: .25rem;
+  display: block;
+  border: none;
+  box-shadow:  0 6px 5px 0 rgba(0, 0, 0, .2);
+}
+/* .container{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 3rem;
+  width: fit-content;
+  background-image: url(https://wallpaperaccess.com/full/1808486.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.col-md-4.col-10.mb-3{
+  text-align: center;
+} */
